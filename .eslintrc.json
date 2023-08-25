@@ -1,0 +1,20 @@
+{
+  "extends": ["next/core-web-vitals", "eslint:recommended", "prettier"],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "rules": {},
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts?(x)", "**/*.js?(x)"],
+      "rules": {
+        "no-unused-vars": "off"
+      }
+    }
+  ]
+}
